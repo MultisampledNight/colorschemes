@@ -1,4 +1,2 @@
 - regenerate all screenshots with Rust + Python example files
-- convert all colorscheme definitions to JSON
 - include json-to-image script at top level
-- make alacritty-colors.yml for samplednight
