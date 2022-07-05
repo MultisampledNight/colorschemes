@@ -1,0 +1,41 @@
+{
+	"rgb": {
+		"foreground": "#BACAC8",
+		"secondary": "#A7B7B5",
+		"tertiary": "#92A1A0",
+		"background": "#1F1227",
+		"highlight": "#312339",
+		"yellow": "#FFAB1C",
+		"cyan": "#00D5CE",
+		"violet": "#DFAAFF",
+		"green": "#5FD73B",
+		"red": "#FFA4B2",
+		"blue": "#80C6FF"
+	},
+	"lch": {
+		"foreground": "lch(80% 6 192)",
+		"secondary": "lch(73% 6 192)",
+		"tertiary": "lch(65% 6 192)",
+		"background": "lch(8% 16 312)",
+		"highlight": "lch(16% 16 312)",
+		"yellow": "lch(77% 83 72)",
+		"cyan": "lch(77% 83 192)",
+		"violet": "lch(77% 83 312)",
+		"green": "lch(77% 83 132)",
+		"red": "lch(77% 83 12)",
+		"blue": "lch(77% 83 252)"
+	},
+	"comment": {
+		"foreground": "base color",
+		"secondary": "monochromatic",
+		"tertiary": "monochromatic",
+		"background": "triadic",
+		"highlight": "triadic",
+		"yellow": "triadic",
+		"cyan": "monochromatic",
+		"violet": "triadic",
+		"green": "hexadic",
+		"red": "complementary",
+		"blue": "hexadic"
+	}
+}

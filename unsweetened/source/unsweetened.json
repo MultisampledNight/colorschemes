@@ -1,0 +1,15 @@
+{
+    "rgb": {
+        "background": "#171C1C",
+        "highlight": "#333E3E",
+        "secondary": "#A8A3A8",
+        "foreground": "#B8B2B8",
+        "primary": "#C7C1C7",
+        "red": "#FF4F60",
+        "yellow": "#FFFC4F",
+        "green": "#67DC44",
+        "cyan": "#45DEC2",
+        "blue": "#4FC1FF",
+        "magenta": "#C44FFF"
+    }
+}
