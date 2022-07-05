@@ -41,8 +41,7 @@ call s:SetBgHighlight("UNSHighlight",	"#333e3e",	07)
 call s:SetBgHighlight("UNSImportant",	"#fffc4f",	03)
 
 
-hi!	Normal	guibg=#171c1c
-hi! link	Normal	UNSForeground
+hi!	Normal	guifg=#b8b2b8 guibg=#171c1c
 hi! link	NormalNC	UNSSecondary
 hi! link	Ignore	UNSBackground
 hi! link	Visual	UNSHighlight
