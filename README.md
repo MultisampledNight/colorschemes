@@ -104,6 +104,7 @@ light ("fullrange"), or have `base08-base0F` ordered ("hueordered").
 		existing entries
 	- Create `schemes/theme-name/theme-name.yaml` following [the base16
 	  spec](https://github.com/base16-project/base16/blob/main/styling.md)
+	- Run `utils/regenerate`
 
 <!--
   vim: tw=80

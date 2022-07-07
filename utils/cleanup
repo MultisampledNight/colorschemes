@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+# expects git to be installed
+# DON'T FORGET TO ADD YOUR THEME TO .gitignore BEFORE RUNNING
+import os
+import shutil
+import subprocess
+from pathlib import Path
+from utils import repo_toplevel_dir
+
+
+def cleanup():
+    toplevel_dir = repo_toplevel_dir()
+    os.chdir(toplevel_dir)
+
+    unknown_stuff = (
+        subprocess.check_output(
+            ["git", "ls-files", "--other", "--directory"],
+            text=True,
+        )
+        .strip()
+        .split("\n")
+    )
+
+    for object_to_delete in unknown_stuff:
+        if Path(object_to_delete).is_dir():
+            shutil.rmtree(object_to_delete)
+        else:
+            os.remove(object_to_delete)
+
+
+if __name__ == "__main__":
+    cleanup()

@@ -3,22 +3,13 @@
 import os
 import shutil
 import subprocess
-import sys
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from utils import repo_toplevel_dir
 
 
 def regenerate():
-    try:
-        toplevel_dir = subprocess.check_output(
-            ["git", "rev-parse", "--show-toplevel"],
-            stderr=subprocess.STDOUT,
-            text=True,
-        ).strip()
-    except subprocess.CalledProcessError as error:
-        print(f"could not get repo root: {error.output}", file=sys.stderr)
-        sys.exit(1)
-
+    toplevel_dir = repo_toplevel_dir()
     os.chdir(toplevel_dir)
 
     with TemporaryDirectory() as tmpdir:
