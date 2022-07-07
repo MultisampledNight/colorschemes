@@ -7,6 +7,48 @@ All of my colorschemes in one repository, bundled and small.
 Chronologically sorted, newest first.
 
 
+### abnormalize
+
+Fresh, clean, green-blue-cyan, aggressive.
+
+![abnormalize color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/abnormalize/source/morphtype.png)
+
+### white-on-black
+
+You probably _don't_ want to use this. Neutral.
+
+![white-on-black color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/abnormalize/source/morphtype.png)
+
+### morphtype
+
+Consistent, context-aware, contrastful, direct.
+
+![morphtype color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/morphtype/source/morphtype.png)
+
+### unsweetened
+
+Solid, distinct, friendly, demandful.
+
+![unsweetened color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/unsweetened/source/morphtype.png)
+
+### silentmission
+
+Retro, calm, thrusting.
+
+![silentmission color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/silentmission/source/morphtype.png)
+
+### samplednight
+
+Flashing, sharp, literally unreadable.
+
+![samplednight color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/samplednight/source/morphtype.png)
+
+Used setup:
+
+- Font: CamingoCode
+- Neovim GUI: Neovide
+- HiDPI scale: 2
+
 ## Installation
 
 Setup is almost identical to any other plugin, just use your favorite plugin

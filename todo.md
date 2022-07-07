@@ -1,2 +1,2 @@
 - regenerate all screenshots with Rust + Python example files
-- include json-to-image script at top level
+- switch to base16 for colorscheme definition

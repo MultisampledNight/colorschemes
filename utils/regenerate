@@ -1,0 +1,34 @@
+#!/usr/bin/env python
+# expects https://github.com/InspectorMustache/base16-builder-python to be installed and `pybase16 update`
+import os
+import shutil
+import subprocess
+import sys
+from pathlib import Path
+from tempfile import TemporaryDirectory
+
+
+def regenerate():
+    try:
+        toplevel_dir = subprocess.check_output(
+            ["git", "rev-parse", "--show-toplevel"],
+            stderr=subprocess.STDOUT,
+            text=True,
+        ).strip()
+    except subprocess.CalledProcessError as error:
+        print(f"could not get repo root: {error.output}", file=sys.stderr)
+        sys.exit(1)
+
+    os.chdir(toplevel_dir)
+
+    with TemporaryDirectory() as tmpdir:
+        subprocess.run(["pybase16", "build", "--output", tmpdir])
+        shutil.copytree(
+            Path(tmpdir) / "vim" / "colors",
+            Path(toplevel_dir) / "colors",
+            dirs_exist_ok=True,
+        )
+
+
+if __name__ == "__main__":
+    regenerate()
