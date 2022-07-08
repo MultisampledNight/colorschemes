@@ -1,0 +1,20 @@
+scheme: "abnormalize-alt"
+author: "MultisampledNight"
+base00: "001E1B" #	lch(9% 19 187)
+base01: "002724" #	lch(13% 19 187)
+base02: "003833" #	lch(20% 19 187)
+base03: "8F98BA" #	lch(63% 19 277)
+base04: "AFB8DB" #	lch(75% 19 277)
+base05: "C5CEF2" #	lch(83% 19 277)
+base06: "001E1B" #	
+base07: "8F98BA" #	
+base08: "9FD6FF" #	lch(83% 38 247)
+base09: "D9D086" #	lch(83% 38 97)
+base0A: "8BE1B1" #	lch(83% 38 157)
+base0B: "6AE3D6" #	lch(83% 38 187)
+base0C: "F9C48D" #	lch(83% 38 67)
+base0D: "FFBDCA" #	lch(83% 38 7)
+base0E: "E1C3FF" #	lch(83% 38 307)
+base0F: "FFB9E9" #	lch(83% 38 337)
+
+# vim: sts=0 ts=24 sw=24 noet

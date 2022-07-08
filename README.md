@@ -77,14 +77,30 @@ Most colorschemes also have themes for programs which are not (Neo)Vim:
 
 Else, just generate it yourself with your favorite base16 builder.
 
-## Programmatic usage
+## Programmatic usage + base16 specifics
 
-These colorschemes use [base16](https://github.com/chriskempson/base16), which
+These colorschemes base on [base16](https://github.com/chriskempson/base16), which
 allows me to write my colorscheme once and have it automatically applied
 everywhere. All colorschemes are defined in the manner of
-`schemes/theme-name/theme-name.yaml` in casual YAML files. Some might contain
-additional versions with `base00`-`base07` being a full range from dark to
-light ("fullrange"), or have `base08-base0F` ordered ("hueordered").
+`schemes/theme-name/theme-name.yaml` in casual YAML files. You want to use that.
+
+There are a few things to note though.
+
+- `base00`-`base07` being a full range from dark to light (
+	`base06` and `base07` **not** being special), [this is actually
+	off-spec](https://github.com/base16-project/base16/blob/099f69eebafa085105c4f49c8095491e565e66a8/styling.md)
+	but many editors just interpret it like that anyways. `base00`-`base03` are
+	background colors, other five are shades of the foreground (`base06` is the
+	canonical foreground, `base07` is then even lighter than the foreground
+	(assuming a dark scheme).
+- `hueordered`: `base08-base0F` are ordered by hue, in ascending order.
+	_Usually_ that ends up with `Red, Orange, Yellow, Green, Cyan, Blue, Purple,
+	Magenta` but that's not necessarily true.
+
+`theme-name-alt.yaml` is an alternative version of the colorscheme which
+circumvents the issue of base16 not really specifying what colors _mean_ by
+using red for cyan, for example. It also follows the actual base16 `base06`
+and `base07` definitions, and is thought for older things like the Vim template.
 
 ## FAQ
 

@@ -1,21 +1,21 @@
 scheme: "abnormalize"
 author: "MultisampledNight"
-#	usage (in Vim)	color name	lch value	harmony
-base00: "001E1B" #	background	background	lch(9% 19 187)	tetradic
-base01: "002724" #	statusline	focus 	lch(13% 19 187)	tetradic
-base02: "003833" #	visual	highlight	lch(20% 19 187)	tetradic
-base03: "8F98BA" #	comment	tertiary 	lch(63% 19 277)	monochromatic
-base04: "AFB8DB" #	current line number	secondary 	lch(75% 19 277)	monochromatic
-base05: "C5CEF2" #	foreground	foreground	lch(83% 19 277)	base color
-base06: "001E1B" #	(zathura) recolor bg
-base07: "8F98BA" #	(zathura) inputbar fg
-base08: "9FD6FF" #	identifier	blue	lch(83% 38 247)	split complementary
-base09: "D9D086" #	constant	yellow	lch(83% 38 97)	complementary
-base0A: "8BE1B1" #	type	green	lch(83% 38 157)	triadic
-base0B: "6AE3D6" #	string literal	cyan	lch(83% 38 187)	tetradic
-base0C: "F9C48D" #	special	orange	lch(83% 38 67)	split complementary
-base0D: "FFBDCA" #	function	rose	lch(83% 38 7)	tetradic
-base0E: "E1C3FF" #	keyword	violet	lch(83% 38 307)	split complementary
-base0F: "FFB9E9" #	delimiter	pink	lch(83% 38 337)	hexadic
+#	lch value	harmony
+base00: "001E1B" #	lch(9% 19 187)	tetradic
+base01: "002724" #	lch(13% 19 187)	tetradic
+base02: "003833" #	lch(20% 19 187)	tetradic
+base03: "70799A" #	lch(51% 19 277)	monochromatic
+base04: "8F98BA" #	lch(63% 19 277)	monochromatic
+base05: "AFB8DB" #	lch(75% 19 277)	monochromatic
+base06: "C5CEF2" #	lch(83% 19 277)	monochromatic
+base07: "DBE2FF" #	lch(89% 19 277)	monochromatic
+base08: "FFBDCA" #	lch(83% 38 7)	tetradic
+base09: "F9C48D" #	lch(83% 38 67)	split complementary
+base0A: "D9D086" #	lch(83% 38 97)	complementary
+base0B: "8BE1B1" #	lch(83% 38 157)	triadic
+base0C: "6AE3D6" #	lch(83% 38 187)	tetradic
+base0D: "9FD6FF" #	lch(83% 38 247)	split complementary
+base0E: "E1C3FF" #	lch(83% 38 307)	split complementary
+base0F: "FFB9E9" #	lch(83% 38 337)	hexadic
 
-# vim: sts=0 ts=24 sw=24 noet
+# vim: sts=0 ts=24 sw=24 noet nowrap

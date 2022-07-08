@@ -1,7 +1,6 @@
 # abnormalize
 
 Unsweetened rebooted. Don't think the name comes from any anime opening... or
-does it
+does it [(Firefox theme)](https://color.firefox.com/?theme=XQAAAAKbAgAAAAAAAABBqYhm849SCicxcUF-LXcGHf3p79EhVPQ41rwfdlfx741jQwN5DBeS1APyZ0QCu0d9RpN0od3WWgv_l0Pwz-a8b3jx_3fXSmQgrLtZIug85XI7Lf72K3Bior87d-3fJpcyvK3y9ms9oGLhlY0UG-BZKXgs0PeII0L7GgCDr5TDLFzmMhpXYkF3XG8RLYUWGzbyalPRuwaaGghkP36R6hPvqJIKMD09qMLKP3EsYbiHQ0TuIxxq44jUcHPemxpFhHc-vGmpCvezNLwOuWhBR-7-jUJu-kFyL6FY1vauPU6jrdW9PSoY-K8XGL0rHyLJ5pWXnvtGxvdqIWXQUroh7viVpG9H4DfbKJdxphDJ3mSfyzEBlCrONW32PyUpGM5nfWn5m0s3)
 
-TODO firefox theme
 
