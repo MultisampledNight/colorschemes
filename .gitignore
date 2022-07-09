@@ -7,12 +7,12 @@
 !/schemes/samplednight
 
 /colors/*
-!/colors/base16-abnormalize.vim
-!/colors/base16-white-on-black.vim
-!/colors/base16-morphtype.vim
-!/colors/base16-unsweetened.vim
-!/colors/base16-silentmission.vim
-!/colors/base16-samplednight.vim
+!/colors/base16-abnormalize*
+!/colors/base16-white-on-black*
+!/colors/base16-morphtype*
+!/colors/base16-unsweetened*
+!/colors/base16-silentmission*
+!/colors/base16-samplednight*
 
 /sources
 /sources.yaml

@@ -2,7 +2,7 @@
 
 " base16-vim (https://github.com/chriskempson/base16-vim)
 " by Chris Kempson (http://chriskempson.com)
-" abnormalize scheme by MultisampledNight
+" abnormalize-alt scheme by MultisampledNight
 
 " This enables the coresponding base16-shell script to run so that
 " :colorscheme works in terminals supported by base16-shell scripts
@@ -10,7 +10,7 @@
 "   let g:base16_shell_path=base16-builder/output/shell/
 if !has("gui_running")
   if exists("g:base16_shell_path")
-    execute "silent !/bin/sh ".g:base16_shell_path."/base16-abnormalize.sh"
+    execute "silent !/bin/sh ".g:base16_shell_path."/base16-abnormalize-alt.sh"
   endif
 endif
 
@@ -21,28 +21,28 @@ let s:gui01        = "002724"
 let g:base16_gui01 = "002724"
 let s:gui02        = "003833"
 let g:base16_gui02 = "003833"
-let s:gui03        = "70799A"
-let g:base16_gui03 = "70799A"
-let s:gui04        = "8F98BA"
-let g:base16_gui04 = "8F98BA"
-let s:gui05        = "AFB8DB"
-let g:base16_gui05 = "AFB8DB"
-let s:gui06        = "C5CEF2"
-let g:base16_gui06 = "C5CEF2"
-let s:gui07        = "DBE2FF"
-let g:base16_gui07 = "DBE2FF"
-let s:gui08        = "FFBDCA"
-let g:base16_gui08 = "FFBDCA"
-let s:gui09        = "F9C48D"
-let g:base16_gui09 = "F9C48D"
-let s:gui0A        = "D9D086"
-let g:base16_gui0A = "D9D086"
-let s:gui0B        = "8BE1B1"
-let g:base16_gui0B = "8BE1B1"
-let s:gui0C        = "6AE3D6"
-let g:base16_gui0C = "6AE3D6"
-let s:gui0D        = "9FD6FF"
-let g:base16_gui0D = "9FD6FF"
+let s:gui03        = "8F98BA"
+let g:base16_gui03 = "8F98BA"
+let s:gui04        = "AFB8DB"
+let g:base16_gui04 = "AFB8DB"
+let s:gui05        = "C5CEF2"
+let g:base16_gui05 = "C5CEF2"
+let s:gui06        = "001E1B"
+let g:base16_gui06 = "001E1B"
+let s:gui07        = "8F98BA"
+let g:base16_gui07 = "8F98BA"
+let s:gui08        = "9FD6FF"
+let g:base16_gui08 = "9FD6FF"
+let s:gui09        = "D9D086"
+let g:base16_gui09 = "D9D086"
+let s:gui0A        = "8BE1B1"
+let g:base16_gui0A = "8BE1B1"
+let s:gui0B        = "6AE3D6"
+let g:base16_gui0B = "6AE3D6"
+let s:gui0C        = "F9C48D"
+let g:base16_gui0C = "F9C48D"
+let s:gui0D        = "FFBDCA"
+let g:base16_gui0D = "FFBDCA"
 let s:gui0E        = "E1C3FF"
 let g:base16_gui0E = "E1C3FF"
 let s:gui0F        = "FFB9E9"
@@ -100,21 +100,21 @@ endif
 " Neovim terminal colours
 if has("nvim")
   let g:terminal_color_0 =  "#001E1B"
-  let g:terminal_color_1 =  "#FFBDCA"
-  let g:terminal_color_2 =  "#8BE1B1"
-  let g:terminal_color_3 =  "#D9D086"
-  let g:terminal_color_4 =  "#9FD6FF"
+  let g:terminal_color_1 =  "#9FD6FF"
+  let g:terminal_color_2 =  "#6AE3D6"
+  let g:terminal_color_3 =  "#8BE1B1"
+  let g:terminal_color_4 =  "#FFBDCA"
   let g:terminal_color_5 =  "#E1C3FF"
-  let g:terminal_color_6 =  "#6AE3D6"
-  let g:terminal_color_7 =  "#AFB8DB"
-  let g:terminal_color_8 =  "#70799A"
-  let g:terminal_color_9 =  "#FFBDCA"
-  let g:terminal_color_10 = "#8BE1B1"
-  let g:terminal_color_11 = "#D9D086"
-  let g:terminal_color_12 = "#9FD6FF"
+  let g:terminal_color_6 =  "#F9C48D"
+  let g:terminal_color_7 =  "#C5CEF2"
+  let g:terminal_color_8 =  "#8F98BA"
+  let g:terminal_color_9 =  "#9FD6FF"
+  let g:terminal_color_10 = "#6AE3D6"
+  let g:terminal_color_11 = "#8BE1B1"
+  let g:terminal_color_12 = "#FFBDCA"
   let g:terminal_color_13 = "#E1C3FF"
-  let g:terminal_color_14 = "#6AE3D6"
-  let g:terminal_color_15 = "#DBE2FF"
+  let g:terminal_color_14 = "#F9C48D"
+  let g:terminal_color_15 = "#8F98BA"
   let g:terminal_color_background = g:terminal_color_0
   let g:terminal_color_foreground = g:terminal_color_5
   if &background == "light"
@@ -124,28 +124,28 @@ if has("nvim")
 elseif has("terminal")
   let g:terminal_ansi_colors = [
         \ "#001E1B",
-        \ "#FFBDCA",
-        \ "#8BE1B1",
-        \ "#D9D086",
         \ "#9FD6FF",
-        \ "#E1C3FF",
         \ "#6AE3D6",
-        \ "#AFB8DB",
-        \ "#70799A",
-        \ "#FFBDCA",
         \ "#8BE1B1",
-        \ "#D9D086",
-        \ "#9FD6FF",
+        \ "#FFBDCA",
         \ "#E1C3FF",
+        \ "#F9C48D",
+        \ "#C5CEF2",
+        \ "#8F98BA",
+        \ "#9FD6FF",
         \ "#6AE3D6",
-        \ "#DBE2FF",
+        \ "#8BE1B1",
+        \ "#FFBDCA",
+        \ "#E1C3FF",
+        \ "#F9C48D",
+        \ "#8F98BA",
         \ ]
 endif
 
 " Theme setup
 hi clear
 syntax reset
-let g:colors_name = "base16-abnormalize"
+let g:colors_name = "base16-abnormalize-alt"
 
 " Highlighting function
 " Optional variables are attributes and guisp

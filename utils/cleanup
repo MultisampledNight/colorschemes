@@ -14,7 +14,7 @@ def cleanup():
 
     unknown_stuff = (
         subprocess.check_output(
-            ["git", "ls-files", "--other", "--directory"],
+            ["git", "ls-files", "--other", "--directory", "--ignored", "--exclude-standard"],
             text=True,
         )
         .strip()
