@@ -11,39 +11,27 @@ Chronologically sorted, newest first.
 
 Fresh, clean, green-blue-cyan, aggressive.
 
-![abnormalize color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/abnormalize/source/morphtype.png)
-
 ### white-on-black
 
 You probably _don't_ want to use this. Neutral.
-
-![white-on-black color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/abnormalize/source/morphtype.png)
 
 ### morphtype
 
 Consistent, context-aware, contrastful, direct.
 
-![morphtype color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/morphtype/source/morphtype.png)
-
 ### unsweetened
 
 Solid, distinct, friendly, demandful.
-
-![unsweetened color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/unsweetened/source/morphtype.png)
 
 ### silentmission
 
 Retro, calm, thrusting.
 
-![silentmission color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/silentmission/source/morphtype.png)
-
 ### samplednight
 
 Flashing, sharp, literally unreadable.
 
-![samplednight color showcase](https://raw.githubusercontent.com/MultisampledNight/colorschemes/main/samplednight/source/morphtype.png)
-
-Used setup:
+#### Used setup:
 
 - Font: CamingoCode
 - Neovim GUI: Neovide
@@ -58,13 +46,10 @@ manager. For example, using vim-plug:
 Plug 'MultisampledNight/colorschemes'
 ```
 
-Unfortunately plugins are loaded *after* the init script, but this plugin performs
-some `runtimepath` hacking in order to have Vim even find these colorschemes.
-This basically means, load your colorscheme in the `VimEnter` autocmd and not directly:
-
-```
-autocmd VimEnter * colorscheme abnormalize
-```
+Next you can load the colorschemes in here just like any other. Beware that I
+use base16 though, so all colorschemes are prefixed with `base16`. Also the
+`-alt` versions are optimized for Vim (for now, see below for more), so for
+abnormalize the proper theme name is `base16-abnormalize-alt`.
 
 ## Other programs
 
@@ -101,6 +86,12 @@ There are a few things to note though.
 circumvents the issue of base16 not really specifying what colors _mean_ by
 using red for cyan, for example. It also follows the actual base16 `base06`
 and `base07` definitions, and is thought for older things like the Vim template.
+The [base17](https://github.com/base16-project/base17) project is on their way
+of fixing that behavior, so the `alt` "workaround" might only be temporary.
+
+Some colorschemes are still in an old format with JSON files, I'm in the process
+of converting those (with a script, since I'm not sure if I'm going to keep that
+JSON workflow). The only real theme for now is abnormalize.
 
 ## FAQ
 
@@ -116,11 +107,10 @@ and `base07` definitions, and is thought for older things like the Vim template.
 	First: I store only my colorschemes here. Probably you want to make your own
 	repository with your own thoughts on structure and design.
 
-	- Add it to `.gitignore` both under `schemes` and `colors`, following already
-		existing entries
 	- Create `schemes/theme-name/theme-name.yaml` following [the base16
 	  spec](https://github.com/base16-project/base16/blob/main/styling.md)
 	- Run `utils/regenerate`
+	- ~~profit~~ You're done!
 
 <!--
   vim: tw=80
