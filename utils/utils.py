@@ -1,3 +1,4 @@
+import os
 import subprocess
 import sys
 
@@ -12,3 +13,7 @@ def repo_toplevel_dir() -> str:
     except subprocess.CalledProcessError as error:
         print(f"could not get repo root: {error.output}", file=sys.stderr)
         sys.exit(1)
+
+
+def cd_to_toplevel():
+    os.chdir(repo_toplevel_dir())
