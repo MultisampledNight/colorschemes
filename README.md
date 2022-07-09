@@ -2,6 +2,10 @@
 
 All of my colorschemes in one repository, bundled and small.
 
+
+NOTE: For now, only `abnormalize` is usable. Everything else is still in an old
+format I want to convert.
+
 ## Colorschemes
 
 Chronologically sorted, newest first.
