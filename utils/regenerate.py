@@ -37,7 +37,9 @@ def inject_symlinks(reverse=False):
         link_target = build_scheme_dir / custom_scheme.name
         if reverse:
             assert link_target.is_symlink()
-            link_target.unlink()
+            # ensures "cleaning up" even partial injects
+            if link_target.exists():
+                link_target.unlink()
         else:
             link_target.symlink_to(custom_scheme)
 
@@ -79,9 +81,15 @@ def regenerate(argv: list[str]):
     if "--init" in argv:
         update_base16_repos()
 
-    inject_symlinks()
-    build()
-    inject_symlinks(reverse=True)
+    try:
+        inject_symlinks()
+        build()
+    except KeyboardInterrupt:
+        pass
+    except Exception as err:
+        print(err)
+    finally:
+        inject_symlinks(reverse=True)
 
     extract_vim_colors()
 
