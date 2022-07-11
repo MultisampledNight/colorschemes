@@ -1,0 +1,21 @@
+scheme: "white-on-black"
+author: "MultisampledNight"
+
+base00: "000000"
+base01: "000000"
+base02: "000000"
+base03: "FFFFFF"
+base04: "FFFFFF"
+base05: "FFFFFF"
+base06: "FFFFFF"
+base07: "FFFFFF"
+base08: "FFFFFF"
+base09: "FFFFFF"
+base0A: "FFFFFF"
+base0B: "FFFFFF"
+base0C: "FFFFFF"
+base0D: "FFFFFF"
+base0E: "FFFFFF"
+base0F: "FFFFFF"
+
+# vim: sts=0 ts=24 sw=24 noet nowrap
