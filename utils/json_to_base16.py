@@ -3,6 +3,7 @@
 Does weird stuff to my old colorscheme format and spits out cool new shiny
 base16 yaml. You'll rarely need this, and it isn't very "user-proof" anyways.
 """
+import itertools
 import json
 import sys
 from dataclasses import dataclass, field
@@ -51,10 +52,11 @@ def remap_dict(source: dict[str, dict[str, str]]) -> dict[str, Color]:
 
 
 def sum_up_columns(source: dict[str, Color]) -> list[str]:
-    # actually I wrote this in functional style but this version looks way cleaner
-    columns = set()
-    for color in source.values():
-        columns |= set(color.additional_info.keys())
+    columns = set(
+        itertools.chain.from_iterable(
+            color.additional_info.keys() for color in source.values()
+        )
+    )
     return sorted(list(columns), reverse=True)
 
 
