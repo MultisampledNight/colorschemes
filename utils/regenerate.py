@@ -77,6 +77,11 @@ def extract_vim_colors():
     )
 
 
+def cleanup():
+    cd_build()
+    shutil.rmtree(Path.cwd() / "output")
+
+
 def regenerate(argv: list[str]):
     if "--init" in argv:
         update_base16_repos()
@@ -92,6 +97,9 @@ def regenerate(argv: list[str]):
         inject_symlinks(reverse=True)
 
     extract_vim_colors()
+
+    if "--noclean" not in argv:
+        cleanup()
 
 
 if __name__ == "__main__":
