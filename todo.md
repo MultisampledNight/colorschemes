@@ -1,4 +1,4 @@
 - regenerate all screenshots with Rust + Python example files
-- switch to base16 for colorscheme definition
 - l systems
 - regenerate only my colorschemes, not the whole world (protip: `--scheme`)
+- more interesting logging for regenerate

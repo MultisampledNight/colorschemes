@@ -8,6 +8,7 @@ from collections.abc import Iterable
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from utils import cd_to_toplevel, repo_toplevel_dir
+from base16_to_image import base16_to_image
 
 
 def cd_build():
@@ -44,7 +45,7 @@ def inject_symlinks(reverse=False):
             link_target.symlink_to(custom_scheme)
 
 
-def build():
+def build_base16():
     cd_build()
     subprocess.run(["pybase16", "build"])
 
@@ -82,13 +83,25 @@ def cleanup():
     shutil.rmtree(Path.cwd() / "output")
 
 
+def build_images():
+    cd_build()
+
+    image_dir = Path.cwd() / "images"
+    os.makedirs(image_dir, exist_ok=True)
+
+    for scheme in custom_scheme_paths():
+        base16_to_image(
+            scheme / f"{scheme.stem}.yaml", image_dir / f"{scheme.stem}.png"
+        )
+
+
 def regenerate(argv: list[str]):
     if "--init" in argv:
         update_base16_repos()
 
     try:
         inject_symlinks()
-        build()
+        build_base16()
     except KeyboardInterrupt:
         pass
     except Exception as err:
@@ -97,6 +110,7 @@ def regenerate(argv: list[str]):
         inject_symlinks(reverse=True)
 
     extract_vim_colors()
+    build_images()
 
     if "--noclean" not in argv:
         cleanup()
