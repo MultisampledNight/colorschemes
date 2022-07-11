@@ -16,7 +16,7 @@ BASE16_TO_NAME = {
     "base01": {"focus"},
     "base02": {"highlight"},
     "base03": {"placeholder", "comment"},
-    "base04": {"tertiary"},
+    "base04": {"tertiary", "grey"},
     "base05": {"secondary"},
     "base06": {"foreground"},
     "base07": {"primary", "attention"},

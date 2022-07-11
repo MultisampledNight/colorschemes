@@ -1,0 +1,21 @@
+scheme: "silentmission-alt"
+author: "MultisampledNight"
+
+base00: "101010"
+base01: "101010"
+base02: "1C1C1C"
+base03: "A2A2A2"
+base04: "A2A2A2"
+base05: "A2A2A2"
+base06: "FFFBFB"
+base07: "FFFBFB"
+base08: "FFFBFB"
+base09: "A545F5"
+base0A: "14C0CC"
+base0B: "FFE45F"
+base0C: "A2A2A2"
+base0D: "15E787"
+base0E: "F0294C"
+base0F: "A2A2A2"
+
+# vim: sts=0 ts=24 sw=24 noet nowrap

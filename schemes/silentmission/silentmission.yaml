@@ -1,0 +1,21 @@
+scheme: "silentmission"
+author: "MultisampledNight"
+
+base00: "101010"
+base01: "101010"
+base02: "1C1C1C"
+base03: "A2A2A2"
+base04: "A2A2A2"
+base05: "A2A2A2"
+base06: "FFFBFB"
+base07: "FFFBFB"
+base08: "F0294C"
+base09: "C26523"
+base0A: "FFE45F"
+base0B: "15E787"
+base0C: "15E787"
+base0D: "14C0CC"
+base0E: "A545F5"
+base0F: "A545F5"
+
+# vim: sts=0 ts=24 sw=24 noet nowrap
