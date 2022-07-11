@@ -1,0 +1,22 @@
+scheme: "morphtype"
+author: "MultisampledNight"
+# this is a good example for a scheme where the default base16 mappings don't work at all
+# I'd love to have base17 here qwq
+base00: "1F1227"
+base01: "1F1227"
+base02: "312339"
+base03: "92A1A0"
+base04: "92A1A0"
+base05: "A7B7B5"
+base06: "BACAC8"
+base07: "BACAC8"
+base08: "80C6FF"
+base09: "5FD73B"
+base0A: "00D5CE"
+base0B: "5FD73B"
+base0C: "FFAB1C"
+base0D: "DFAAFF"
+base0E: "FFA4B2"
+base0F: "DFAAFF"
+
+# vim: sts=0 ts=24 sw=24 noet nowrap

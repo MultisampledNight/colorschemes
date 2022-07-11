@@ -1,0 +1,21 @@
+scheme: "morphtype"
+author: "MultisampledNight"
+#	lch	comment
+base00: "1F1227" #	lch(8% 16 312)	triadic
+base01: "1F1227"
+base02: "312339" #	lch(16% 16 312)	triadic
+base03: "92A1A0" #	lch(65% 6 192)	monochromatic
+base04: "92A1A0"
+base05: "A7B7B5" #	lch(73% 6 192)	monochromatic
+base06: "BACAC8" #	lch(80% 6 192)	base color
+base07: "BACAC8" #		
+base08: "FFA4B2" #	lch(77% 83 12)	complementary
+base09: "FFAB1C" #	lch(77% 83 72)	triadic
+base0A: "FFAB1C"
+base0B: "5FD73B" #	lch(77% 83 132)	hexadic
+base0C: "00D5CE" #	lch(77% 83 192)	monochromatic
+base0D: "80C6FF" #	lch(77% 83 252)	hexadic
+base0E: "DFAAFF" #	lch(77% 83 312)	triadic
+base0F: "DFAAFF"
+
+# vim: sts=0 ts=24 sw=24 noet nowrap
