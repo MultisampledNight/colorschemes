@@ -1,0 +1,21 @@
+scheme: "unsweetened-alt"
+author: "MultisampledNight"
+
+base00: "171C1C"
+base01: "171C1C"
+base02: "333E3E"
+base03: "A8A3A8"
+base04: "A8A3A8"
+base05: "B8B2B8"
+base06: "B8B2B8"
+base07: "C7C1C7"
+base08: "4FC1FF"
+base09: "FFFC4F"
+base0A: "45DEC2"
+base0B: "67DC44"
+base0C: "B8B2B8"
+base0D: "C44FFF"
+base0E: "FF4F60"
+base0F: "C44FFF"
+
+# vim: sts=0 ts=24 sw=24 noet nowrap

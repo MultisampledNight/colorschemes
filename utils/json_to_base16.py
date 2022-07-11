@@ -27,7 +27,7 @@ BASE16_TO_NAME = {
     "base0C": {"cyan", "teal", "turquoise"},
     "base0D": {"blue", "indigo"},
     "base0E": {"purple", "violet", "indigo"},
-    "base0F": {"pink"},
+    "base0F": {"magenta", "pink"},
 }
 
 
