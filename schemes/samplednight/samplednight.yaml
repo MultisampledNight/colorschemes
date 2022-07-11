@@ -1,0 +1,21 @@
+scheme: "samplednight"
+author: "MultisampledNight"
+
+base00: "111216"
+base01: "111216"
+base02: "111216"
+base03: "00FFFF"
+base04: "00FFFF"
+base05: "00FFFF"
+base06: "00FFFF"
+base07: "00FFFF"
+base08: "5F00FF"
+base09: "0CEB82"
+base0A: "0CEB82"
+base0B: "0CEB82"
+base0C: "00FFFF"
+base0D: "5F87FF"
+base0E: "5F87FF"
+base0F: "5F00FF"
+
+# vim: sts=0 ts=24 sw=24 noet nowrap
