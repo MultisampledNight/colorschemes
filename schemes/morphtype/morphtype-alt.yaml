@@ -1,4 +1,4 @@
-scheme: "morphtype"
+scheme: "morphtype-alt"
 author: "MultisampledNight"
 # this is a good example for a scheme where the default base16 mappings don't work at all
 # I'd love to have base17 here qwq
