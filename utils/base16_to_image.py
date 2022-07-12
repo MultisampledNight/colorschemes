@@ -81,7 +81,7 @@ def to_image(source: Dict[str, str]) -> Image.Image:
                 subtitle_position[1] + TILE_SIZE * 0.125,
             ],
             fill=background,
-            radius=10,
+            radius=5,
         )
         draw.text(
             subtitle_position,
