@@ -47,7 +47,15 @@ def inject_symlinks(reverse=False):
 
 def build_base16():
     cd_build()
-    subprocess.run(["pybase16", "build"])
+
+    scheme_paths = custom_scheme_paths()
+    build_command = ["pybase16", "build"]
+    # didn't really find an interleave function for iterators, so here goes nothing
+    for path in scheme_paths:
+        build_command.append("--scheme")
+        build_command.append(path.stem)
+
+    subprocess.run(build_command)
 
 
 def extract_vim_colors():
