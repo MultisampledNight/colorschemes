@@ -11,9 +11,9 @@ Chronologically sorted, newest first.
 
 Fresh, clean, green-blue-cyan, aggressive.
 
-![abnormalize](https://user-images.githubusercontent.com/80128916/178453529-8066e971-dbbd-4994-abd0-caa4a3d64a5d.png)
 ![abnormalize-rust](https://user-images.githubusercontent.com/80128916/178453652-6a4847a2-5530-4cf6-a70e-b46d2d4deb6c.png)
 ![abnormalize-python](https://user-images.githubusercontent.com/80128916/178453656-efb67c62-ca4c-4a1f-8e7a-969335b52e8a.png)
+![abnormalize](https://user-images.githubusercontent.com/80128916/178453529-8066e971-dbbd-4994-abd0-caa4a3d64a5d.png)
 
 ### white-on-black
 
