@@ -113,10 +113,6 @@ and `base07` definitions, and is thought for older things like the Vim template.
 The [base17](https://github.com/base16-project/base17) project is on their way
 of fixing that behavior, so the `alt` "workaround" might only be temporary.
 
-Some colorschemes are still in an old format with JSON files, I'm in the process
-of converting those (with a script, since I'm not sure if I'm going to keep that
-JSON workflow). The only real theme for now is abnormalize.
-
 ## FAQ
 
 - How can I "rebuild" the Vim colorscheme after modifying a colorscheme source?
