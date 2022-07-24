@@ -88,7 +88,7 @@ Else, just generate it yourself with your favorite base16 builder.
 
 ## Programmatic usage + base16 specifics
 
-These colorschemes base on [base16](https://github.com/chriskempson/base16), which
+These colorschemes base on [base16](https://github.com/base16-project/home), which
 allows me to write my colorscheme once and have it automatically applied
 everywhere. All colorschemes are defined in the manner of
 `schemes/theme-name/theme-name.yaml` in casual YAML files. You want to use that.
