@@ -110,7 +110,7 @@ There are a few things to note though.
 circumvents the issue of base16 not really specifying what colors _mean_ by
 using red for cyan, for example. It also follows the actual base16 `base06`
 and `base07` definitions, and is thought for older things like the Vim template.
-The [base17](https://github.com/base16-project/base17) project is on their way
+The [BaseNext](https://github.com/base16-project/basenext) project is on their way
 of fixing that behavior, so the `alt` "workaround" might only be temporary.
 
 ## FAQ
