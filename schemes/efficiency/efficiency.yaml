@@ -1,0 +1,21 @@
+scheme: "efficiency"
+author: "MultisampledNight"
+#	lch value	harmony
+base00: "01172A" #	lch(7% 16 261)	base color
+base01: "0D2135" #	lch(12% 16 261)	monochromatic
+base02: "182C40" #	lch(17% 16 261)	monochromatic
+base03: "73869F" #	lch(55% 16 261)	monochromatic
+base04: "7D90A9" #	lch(59% 16 261)	monochromatic
+base05: "889BB4" #	lch(63% 16 261)	monochromatic
+base06: "9AADC8" #	lch(70% 16 261)	monochromatic
+base07: "ADC0DB" #	lch(77% 16 261)	monochromatic
+base08: "DF9799" #	lch(70% 30 21)	triadic
+base09: "D69E82" #	lch(70% 30 51)	split complementary
+base0A: "C1A775" #	lch(70% 30 81)	complementary
+base0B: "6FB18D" #	lch(70% 30 171)	tetradic
+base0C: "5DBABE" #	lch(70% 30 201)	hexadic
+base0D: "87AFE1" #	lch(70% 30 261)	complementary
+base0E: "C99DCE" #	lch(70% 30 321)	hexadic
+base0F: "DB97B5" #	lch(70% 30 351)	tetradic
+
+# vim: sts=0 ts=24 sw=24 noet nowrap
