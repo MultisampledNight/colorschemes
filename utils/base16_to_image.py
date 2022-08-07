@@ -125,4 +125,4 @@ def main(argv: list[str]):
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv)
