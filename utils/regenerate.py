@@ -53,7 +53,8 @@ def build_base16():
     # didn't really find an interleave function for iterators, so here goes nothing
     for path in scheme_paths:
         build_command.append("--scheme")
-        build_command.append(path.stem)
+        # the star is important, we also want to match abnormalize-alt
+        build_command.append(f"{path.stem}*")
 
     subprocess.run(build_command)
 
