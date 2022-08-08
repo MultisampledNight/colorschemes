@@ -7,6 +7,14 @@ All of my colorschemes in one repository, bundled and small.
 
 Chronologically sorted, newest first.
 
+### efficiency
+
+Silent, sad, dimmed, low-contrast.
+
+![efficiency-rust](https://user-images.githubusercontent.com/80128916/183382915-27073eb3-a73b-4178-9e64-c532cd4d5c8c.png)
+![efficiency-python](https://user-images.githubusercontent.com/80128916/183382911-c7c50ac2-6c95-47fb-b7bc-635f0bc2a0b3.png)
+![efficiency](https://user-images.githubusercontent.com/80128916/183383232-f15436e9-c6e5-4da6-8372-80885c1109ce.png)
+
 ### abnormalize
 
 Fresh, clean, green-blue-cyan, aggressive.
