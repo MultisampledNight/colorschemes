@@ -14,7 +14,7 @@ base09: "D69E82" #	lch(70% 30 51)	split complementary
 base0A: "C1A775" #	lch(70% 30 81)	complementary
 base0B: "6FB18D" #	lch(70% 30 171)	tetradic
 base0C: "5DBABE" #	lch(70% 30 201)	hexadic
-base0D: "87AFE1" #	lch(70% 30 261)	complementary
+base0D: "87AFE1" #	lch(70% 30 261)	monochromatic
 base0E: "C99DCE" #	lch(70% 30 321)	hexadic
 base0F: "DB97B5" #	lch(70% 30 351)	tetradic
 
